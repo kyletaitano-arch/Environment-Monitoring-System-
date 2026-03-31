@@ -1,7 +1,19 @@
 
 # import smbus2 as smbus
-import smbus 
+#import smbus 
+#import smbus2 as smbus
 import time
+
+try:
+    import smbus # type: ignore
+except ImportError:
+    class SMBus:
+        def __init__(self, bus): pass
+        def read_byte_data(self, addr, reg): return 0
+        def write_byte_data(self, addr, reg, value): pass
+
+    smbus = type('smbus', (), {'SMBus': SMBus})
+
 
 try:
     import smbus # type: ignore
