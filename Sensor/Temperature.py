@@ -1,6 +1,7 @@
 #Kyle was here 
 # Anthony was here
 # hiiiiiiiiiiiiiiiiii Cmp.
+#izzy was here
 # import smbus2 as smbus
 import smbus 
 import time
