@@ -1,5 +1,11 @@
 #Kyle was here 
+<<<<<<< HEAD
 # Anthony was here pt.2
+=======
+# Anthony was here
+# hiiiiiiiiiiiiiiiiii Cmp.
+#izzy was here
+>>>>>>> fe62ab80a0471fc092695bac5ab235e880972a55
 # import smbus2 as smbus
 import smbus 
 import time
